@@ -124,7 +124,7 @@ If you have a sensor that provides you with power readings in Watts (uses W as `
 ```yaml
 sensor:
   - platform: integration
-    source: sensor.current_power
+    source: sensor.instantaneous_power
     name: energy_spent
     unit_prefix: k
     round: 2
